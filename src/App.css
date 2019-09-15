@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: #209cee;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+h3 {
+  text-align: center;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  padding: 5px;
+  width: 500px;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.complete,
+.remove {
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.complete {
+  color: rgb(6, 207, 6);
+  margin-right: 3px;
+}
+.remove {
+  color: rgb(207, 6, 6);
+}
+.complete:hover {
+  background-color: rgba(0, 128, 0, 0.75);
+}
+.remove:hover {
+  background-color: rgba(202, 33, 0, 0.6);
+}
+
+.input {
+  width: 100%;
+  background-color: rgba(74, 125, 173, 0.616);
+  color: aliceblue;
+  font-size: 1rem;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  height: 2.25em;
+  margin-bottom: 1rem;
+  margin-top: 0.125rem;
+  padding: 1rem;
+}
